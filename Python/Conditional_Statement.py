@@ -63,3 +63,20 @@ else:
         print("Invalid username")
     else:
         print("Invalid password")
+
+
+# Match case statement
+
+color1 = input("Enter a color: ")
+
+match color1:
+    case"green":
+        print("Go")
+    case"yellow":
+        print("Get ready")
+    case"red":
+        print("Stop")
+
+    case _:
+        print("Invalid color")
+        
