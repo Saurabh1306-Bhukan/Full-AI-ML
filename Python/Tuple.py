@@ -1,5 +1,6 @@
 # Tuples 
 # A tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets.
+# immutable sequence of values 
 
 tup = (1, 2, 3, 4, 5)
 
