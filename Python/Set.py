@@ -27,3 +27,4 @@ s2 = {4, 5, 8, 9, 10}
 print(s1.union(s2)) # returns a new set that is the union of two sets
 
 print(s1.intersection(s2))  # returns a new set that is the intersection of two sets
+
