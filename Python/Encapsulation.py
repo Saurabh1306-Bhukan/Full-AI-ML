@@ -32,7 +32,7 @@ acc1 =  BankAccount("rahul", 100_000)
 
 acc1.set_balance(200_000)
 
-print(acc1.name, acc1._BankAccount__balance)  # acc.__balance
+print(acc1.name, acc1.__balance)  
     
 
 
