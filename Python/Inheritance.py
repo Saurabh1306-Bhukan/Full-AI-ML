@@ -31,3 +31,4 @@ print(staff1.role, staff1.start_time, staff1.end_time)
 # 4. Hierarchical Inheritance: Multiple child classes inherit from a single parent class.   
 
 
+
