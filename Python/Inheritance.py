@@ -31,4 +31,21 @@ print(staff1.role, staff1.start_time, staff1.end_time)
 # 4. Hierarchical Inheritance: Multiple child classes inherit from a single parent class.   
 
 
+class Teachers:
+    def __init__(self, salary):
+        self.salary = salary
+    
+class Student:
+    def __init__(self, gpa):
+        self.gpa = gpa
+    
+class TA(Teachers, Student):
+    def __init__(self, salary, gpa, name):
+        super().__init__(salary)
+        Student.__init__(self, gpa)
+        self.name = name
+
+ta1 = TA(15_000, 9.4, "Saurabh")
+print(ta1.name, ta1.salary, ta1.gpa)
+
 
